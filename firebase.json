@@ -1,1 +1,36 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"pokedex-flutter-firebase","appId":"1:463818841133:android:ee43ce4b9bba89a962eca4","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"pokedex-flutter-firebase","configurations":{"android":"1:463818841133:android:ee43ce4b9bba89a962eca4","web":"1:463818841133:web:7d9d6a426df0f68962eca4"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "pokedex-flutter-firebase",
+          "appId": "1:463818841133:android:ee43ce4b9bba89a962eca4",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "pokedex-flutter-firebase",
+          "configurations": {
+            "android": "1:463818841133:android:ee43ce4b9bba89a962eca4",
+            "web": "1:463818841133:web:7d9d6a426df0f68962eca4"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
