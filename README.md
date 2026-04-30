@@ -1,22 +1,18 @@
 # Pokédex Flutter Firebase
 
-Aplicação Flutter desenvolvida para trabalho individual da faculdade. O app consome dados de uma API externa, exibe uma lista de Pokémon, mostra detalhes de cada item e possui integração com Firebase Cloud Firestore para salvar Pokémon favoritos.
+> Desenvolvi uma Pokédex em Flutter que consome a PokeAPI para listar e detalhar Pokémon. A integração com Firebase foi feita usando Cloud Firestore, permitindo salvar Pokémon favoritos em uma coleção chamada `favorite_pokemons`. A aplicação está organizada em camadas, separando modelos, serviços de API, repositório de Firebase, telas e componentes visuais.
 
 ## Link do projeto
 
-Após subir no GitHub, coloque aqui o link do repositório:
-
 ```txt
-https://github.com/SEU-USUARIO/pokedex_flutter_firebase
+https://github.com/souoJAUM/pokedex_flutter_firebase
 ```
 
 ## Link para testar ou baixar APK
 
-Após gerar o APK ou publicar a versão web, coloque aqui um dos links:
-
 ```txt
-APK: https://github.com/SEU-USUARIO/pokedex_flutter_firebase/releases
-Web: https://SEU-USUARIO.github.io/pokedex_flutter_firebase/
+APK: https://drive.google.com/file/d/1l2M8siGpgwhYII3xwkpA7bDw0LNpVngL/view?usp=sharing
+Web: https://pokedex-flutter-firebase.web.app/
 ```
 
 ## Funcionalidades
@@ -140,7 +136,7 @@ flutter doctor
 ### 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/SEU-USUARIO/pokedex_flutter_firebase.git
+git https://github.com/souoJAUM/pokedex_flutter_firebase
 cd pokedex_flutter_firebase
 ```
 
@@ -226,59 +222,3 @@ flutter run
 ```bash
 flutter build apk --release
 ```
-
-O APK será gerado em:
-
-```txt
-build/app/outputs/flutter-apk/app-release.apk
-```
-
-Depois, você pode subir esse APK em uma Release do GitHub e colocar o link no README.
-
-## Como subir o projeto no GitHub
-
-Dentro da pasta do projeto:
-
-```bash
-git init
-git add .
-git commit -m "Projeto Flutter com PokeAPI e Firebase"
-git branch -M main
-git remote add origin https://github.com/SEU-USUARIO/pokedex_flutter_firebase.git
-git push -u origin main
-```
-
-## Como publicar versão web no GitHub Pages
-
-Gere a versão web:
-
-```bash
-flutter build web --release
-```
-
-Depois publique a pasta `build/web` no GitHub Pages. Uma opção simples é usar o pacote `gh-pages` ou configurar uma branch separada para a pasta gerada.
-
-## Critérios do trabalho atendidos
-
-| Critério | Como foi atendido |
-|---|---|
-| Aplicação exibindo dados de API | Consome a PokeAPI e mostra lista e detalhes de Pokémon |
-| Integração com Firebase | Salva e lê favoritos no Cloud Firestore |
-| README bem feito | Contém comandos, tecnologias, Firebase, execução, build e arquitetura |
-| Código-fonte Dart versionado | Projeto organizado em arquivos `.dart` prontos para GitHub |
-| Desenho da arquitetura | Diagrama Mermaid incluído no README |
-| Link para APK ou Web | Campo reservado no README para adicionar o link final |
-
-## Observações para apresentação
-
-Você pode explicar o projeto assim:
-
-> Desenvolvi uma Pokédex em Flutter que consome a PokeAPI para listar e detalhar Pokémon. A integração com Firebase foi feita usando Cloud Firestore, permitindo salvar Pokémon favoritos em uma coleção chamada `favorite_pokemons`. A aplicação está organizada em camadas, separando modelos, serviços de API, repositório de Firebase, telas e componentes visuais.
-
-## Possíveis melhorias futuras
-
-- Adicionar autenticação com Firebase Auth.
-- Separar favoritos por usuário logado.
-- Adicionar paginação infinita.
-- Melhorar filtros por tipo de Pokémon.
-- Publicar versão web estável.
