@@ -1,0 +1,9 @@
+{
+  "name": "Pokédex Flutter Firebase",
+  "short_name": "Pokédex",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#d32f2f",
+  "description": "Aplicação Flutter com API externa e Firebase."
+}
